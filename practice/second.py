@@ -19,10 +19,20 @@ c = 610
 print("c의 값은", c)
 print("d의 값은", d)
 
-e = [100, 96, 87, 100]
+e = [158, 1008, 309, 610]
 f = e
 print(e)
 print(f)
-e.append(95)
+e.append(300)
+print(e)
+print(f)
+
+e = e + [100]
+print(e)
+print(f)
+e = [116, 111]
+print(e)
+print(f)
+e.append(724)
 print(e)
 print(f)
