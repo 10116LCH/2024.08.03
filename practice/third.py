@@ -40,3 +40,10 @@ print(h)
 print(len(a))
 print(len(b))
 print(len(b[0]))
+print("==========================")
+
+text = "germania"
+print(text[5])
+
+text.replace(_old "g", _new "r", _count 1)
+print(text)
