@@ -42,8 +42,8 @@ print(len(b))
 print(len(b[0]))
 print("==========================")
 
-text = "germania"
+text = "abcdefg"
 print(text[5])
 
-text.replace(_old "g", _new "r", _count 1)
+text.replace(__old = "g", _new "r", _count 1)
 print(text)
