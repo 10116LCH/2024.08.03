@@ -10,7 +10,9 @@ print("-----------------------------")
 
 inventory = {}
 #사용자 모드
-
+#없으면 x
+#뭔가 있으면 o
+#해당사항 없으면 x
 if not inventory :
     print("X")
 elif inventory :
@@ -21,6 +23,7 @@ elif inventory :
         print("X")
 
 #관리자 모드
+#입력 가능
 c = input("입력")
 if c in inventory:
     print()
