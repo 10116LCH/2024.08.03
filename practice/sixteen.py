@@ -34,9 +34,16 @@ def print_function():
     print("3. 음료를 빼기")
     print("4. 음료를 삭제하기")
 
-def buy_drink():
+def buy_drink(i):
     print("음료를 선택하고, 구매합니다.")
-
+    if 1 == i :
+        print("water")
+    elif 2 == i :
+        print("coke")
+    elif 3 == i :
+        print("cider")
+    elif 4 == i :
+        print("coffee")
 def switch_mode():
     print("mode를 전환합니다.")
 
@@ -59,6 +66,15 @@ def add_drink():
 
 def register_drink():
     print("음료를 등록합니다.")
+    if user_input == 1:
+        buy_drink(i)
+    elif user_input == 2:
+        buy_drink(i)
+    elif user_input == 3:
+        buy_drink(i)
+    elif user_input == 4:
+        buy_drink(i)
+
 
 def delete_drink():
     print("음료를 삭제합니다.")
@@ -80,9 +96,6 @@ while True:
             extract_drink()
         elif user_input == 4:
             delete_drink()
-        elif user_input == 5:
-            switch_mode()
-
     else:
         print_menu()
         user_input = input("메뉴를 선택하세요")
